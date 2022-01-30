@@ -1,8 +1,23 @@
 body{
-    padding: 0;
-    margin: 0;
-    
+    padding: 0px;
+    margin: 0px;
+
 }
+    
+
+
+.background{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;}
+    
+
+
+
+
+
 
 .menu-bar{
         text-align: left;
@@ -24,3 +39,21 @@ body{
 
     }
 
+    .membership {
+        top: 24px;
+        right: 20px;
+        position: absolute;
+        display: flexbox;
+    }
+
+    .membership{
+        font-size: 25px;
+        margin: 8px;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+.services{
+    text-align: center;
+    position: relative;
+}
