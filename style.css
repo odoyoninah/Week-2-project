@@ -17,19 +17,23 @@ body{
     
 .top-bar{
     color: white;
-    display: flexbox;
+    display: inline-block;
     position: relative;
 }
 
-
+.button{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 
 
 .menu-bar{
         text-align: left;
     }
-
-    .menu-bar ul{
+   .menu-bar ul{
         display: inline-flex;
         list-style: none;
     }
@@ -39,11 +43,12 @@ body{
         position: relative;
     }
 
-    .menu-bar ul li {
-        padding: 8px;
+    .menu-bar li {
+        padding: 0;
+        margin: 0;
         font-size: 20px;
         color: white;
-        display: flexbox;
+        display: inline-block;
 
     }
 
@@ -52,14 +57,13 @@ body{
         right: 20px;
         position: absolute;
         display: flexbox;
-        color: white;
-    }
-
-    .membership{
-        font-size: 25px;
-        margin: 8px;
-        padding: 8px;
-        border-radius: 10px;
+        color: white;}
+    
+    .membership li{
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        flex-direction: row;
     }
 
 .services{
@@ -69,3 +73,15 @@ body{
     top: 50%;
     width: 100%;
 }
+.flex-box{
+display: flexbox;
+border: 3px solid white;
+border-radius: 10px;
+margin: 20px;
+padding: 20px;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 20px;
+align-content: center;
+}
+
