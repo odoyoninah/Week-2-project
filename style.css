@@ -248,10 +248,11 @@ padding-top: 20px;
 .factory{
     text-align: center;
     position: relative;
+    margin-bottom: 170px;
 }
 .people{
     display: flex;
-  margin-top: 30px;    
+  margin-bottom: 200px;   
   flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -261,10 +262,9 @@ padding-top: 20px;
 .people .person1{
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(199, 189, 189);;
-    width: 300px;
-    padding: 20px;
-    margin-bottom: 130px;
+    border: 0.5px solid rgb(199, 189, 189);;
+    width: 200px;
+    padding: 10px;
     background :white; 
 }
 .people .person1 img{
@@ -280,12 +280,11 @@ padding-top: 20px;
 .people .person2{
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(199, 189, 189);;
-    width: 300px;
-    padding: 20px;
-    margin-bottom: 130px;
+    border: 0.5px solid rgb(199, 189, 189);;
+    width: 200px;
+    padding: 10px;
     background :white; 
-    height: 300px;  
+ 
 }
 .people .person2 img{
     width: 150px;
@@ -300,10 +299,9 @@ padding-top: 20px;
 .people .person3{
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(199, 189, 189);;
-    width: 300px;
-    padding: 20px;
-    margin-bottom: 130px;
+    border: 0.5px solid rgb(199, 189, 189);;
+    width: 200px;
+    padding: 10px;
     background :white;  
 }
 .people .person3 img{
@@ -318,4 +316,96 @@ padding-top: 20px;
 .icons{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
+
 }
+.bei{
+    text-align: center;
+    position: relative;
+}
+.Standards{
+    display: flex;
+    margin-top: 150px;    
+    flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      width: 100%;
+}
+.Standards .dollar1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 270px;
+    padding: 20px;
+    background :white;
+    border: solid #23A6F0 2px;
+    border: radius 30px;
+
+}
+.Standards .h3{
+    padding-top: 20px;
+}
+.Standars .p{
+    padding-top: 20px;
+}
+
+.Standards .dollar2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 250px;
+    padding: 20px;
+    background :white; 
+    border: solid #23A6F0 2px;
+    border: radius 30px;
+     background-color: #252B42;
+}
+.Standards .h3{
+    padding-top: 20px;  
+}
+.Standards .p{
+    padding-top: 20px;
+}
+
+.Standards .dollar3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 270px;
+    padding: 20px;
+    background :white;
+    border: solid #23A6F0 2px;
+    border: radius 30px;
+}
+.Standards .h3{
+    padding-top: 20px; 
+}
+.Standards .p{
+    padding-top: 20px;
+}
+.details{
+    text-align: center;
+    position: relative;
+}
+.history{
+    background-image: url(./img/pngwing\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    height: 50vh;
+    background-color:#252B42 ; 
+}
+.history{
+    text-align: left;
+    position: relative;
+    margin-top: 150px;
+    color: white;
+}
+
+
+
+
+
+
+
