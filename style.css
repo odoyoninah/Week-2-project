@@ -242,10 +242,80 @@ padding-top: 20px;
     padding-top: 20px; 
 }
 .peace .satisfy p{
-    padding-top: 20px;
+    padding-top: 20px;   
 }
 
 .factory{
     text-align: center;
     position: relative;
+}
+.people{
+    display: flex;
+  margin-top: 30px;    
+  flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;  
+}
+.people .person1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(199, 189, 189);;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 130px;
+    background :white; 
+}
+.people .person1 img{
+    width: 150px; 
+}
+.people .person1 h4{
+    padding-top: 20px;
+}
+.people .person1 p{
+    padding-top: 20px;
+}
+
+.people .person2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(199, 189, 189);;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 130px;
+    background :white; 
+    height: 300px;  
+}
+.people .person2 img{
+    width: 150px;
+}
+.people .person2 h4{
+    padding-top: 20px;  
+}
+.people .person2 p{
+    padding-top: 20px;
+}
+
+.people .person3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(199, 189, 189);;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 130px;
+    background :white;  
+}
+.people .person3 img{
+    width: 150px;
+}
+.people .person3 h4{
+    padding-top: 20px;   
+}
+.people .person3 p{
+    padding-top: 20px; 
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
 }
