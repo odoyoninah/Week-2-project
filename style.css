@@ -416,6 +416,35 @@ padding-top: 20px;
     height: 400px;
     width: auto;
 }
+.folio .fomula{
+    border:1px solid white;
+    height: 400px;
+    width: 450px;
+    color: black;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+}
+.folio .fomula h2{
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 120px;
+
+}
+.folio .fomula input{
+    margin: 15px;
+    margin-left: 33px;
+    height: 5vh;
+    width: 20vw;
+}
+
+
+
+
+
 
 
 
